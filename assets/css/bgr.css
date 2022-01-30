@@ -1,0 +1,123 @@
+.background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+
+    
+    
+}
+.background-video {
+    min-width: 100vw !important;
+    min-height: 100vh !important;
+    height: 100vh !important;
+    width: 177.77778vh !important;
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    z-index: 1;
+    -webkit-transform: translate(-50%,-50%)!important;
+    transform: translate(-50%,-50%)!important;
+}
+.background-video-1 {
+    opacity: 1;
+    z-index: 100;
+    transition: opacity .5s ease-in-out;
+}
+.background-video-2 {
+    z-index: 100;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.background-video-1-rain {
+    z-index: 100;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.background-video-2-rain {
+    z-index: 100;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+   
+}
+
+
+
+
+
+.toggle-rain {
+    min-width: 100vw !important;
+    min-height: 100vh !important;
+    height: 100vh !important;
+    width: 177.77778vh !important;
+    position: absolute!important;
+    top: 50%!important;
+    left: 55%!important;
+    z-index: 999;
+    -webkit-transform: translate(-50%,-50%)!important;
+    transform: translate(-50%,-50%)!important;
+}
+.toggle-rain-item {
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    text-align: center;
+    cursor: pointer;
+}
+.rain-button {
+    border: 3px solid white;
+    background: transparent;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: auto;
+
+}
+.toggle-rain-item:hover .rain-button
+ {
+    border-color:#f3a952 ;
+}
+.toggle-rain-item:hover .rain-button-item {
+    display: block;
+}
+
+.rain-button-item {
+    display: none;
+    height: 20px;
+    width: 20px;
+    background: #f3a952;
+    border-radius: 100%;
+}
+.rain-track {
+    opacity: 0;
+    margin-top: 8px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.toggle-rain-item:hover .rain-track {
+   opacity: 1;
+}
+
+.rain-text {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+.savior-widget, .widget-attach {
+    display: none !important;
+}
+
+.body {
+    display: none;
+}
+
+
+
+

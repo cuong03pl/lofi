@@ -1,0 +1,57 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 32px 150px;
+}
+
+.logo {
+    font-size: 42px;
+    color: white;
+}
+
+.mode {
+
+}
+
+.mode-box {
+    background-color: #f3a952;  
+    border-radius: 100px;
+    position: relative;
+    height: 32px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.mode-item {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: white;
+    left: 2px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+
+}
+.mode-icon {
+    position: absolute;
+    right: 10px;
+}
+.mode-icon-img {
+    height: 16px;
+    width: 16px;
+}
+
+.mode-item-night {
+    left: 38px !important;
+}
+.mode-icon-night {
+    position: absolute;
+    left: 10px !important;
+}

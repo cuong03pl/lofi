@@ -1,0 +1,33 @@
+.footer {
+    position: fixed;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 999999;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+.pause-play {
+    margin: 0 24px;
+    cursor: pointer;
+}
+.pause-play img {
+    width: 54px;
+    height: 54px;
+}
+.pause {
+    z-index: 1;
+    cursor: pointer;
+}
+
+.play {
+    z-index: 99;
+    cursor: pointer;
+}
+.pre, .next {
+    cursor: pointer;
+
+}
